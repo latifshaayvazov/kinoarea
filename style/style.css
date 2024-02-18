@@ -1,0 +1,2383 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    /* text-decoration: none; */
+    box-sizing: border-box;
+}
+/* .allwidth{
+    width: 40%;
+} */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #1E2538;  
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+    background-color: #1E2538;
+    
+}
+ .header{
+    width: 100%;
+    height: 800px;
+    background-image: url('./img/А\ 1.png');
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex ;
+    gap: 80px;
+    padding-left: 50px;
+    padding-top: 10px;
+    perspective: 1000px;
+}
+
+
+ .logatip{
+    width: 130px;
+    height: 30px;
+    background-image: url('./img/Логотип.png');
+    background-size: cover;
+    
+}
+.social_media{
+    width: 85px;
+    height: 15px;
+    background-image: url('./img/\ \ \ .png');
+    background-size: cover;
+    position: absolute;
+    margin-top: 40px; 
+    left: 70px; 
+}
+.afisha{
+color: white;
+font-family: Qanelas;
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+margin-top: 20px;
+margin-left: 60px;
+transition: all 0.1s linear;
+}
+.media{
+color: white;
+font-family: Qanelas;
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+cursor: pointer;
+margin-top: 20px;
+transition: all 0.1s linear;
+}
+.film{
+    color: white;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px; 
+    transition: all 0.1s linear;
+}
+.akt{
+    color: white;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.1s linear;
+}
+.novisti{
+    color: white;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.1s linear;
+}
+.podrobki{
+    color: white;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;  
+    transition: all 0.1s linear;
+}
+/* .menu{
+    width: 28px; 
+    height: 27px;
+    background-image: url('./img/Vector\ \(5\).png');
+    display: none;
+} */
+.seracota{
+    width: 50px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    padding-top: 20px;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    position: absolute;
+    right: 220px;
+}
+.seraech{
+    width: 15px;
+    height: 15px;
+    background-image: url('./img/Vector\ \(1\).png');
+    background-size: cover;
+}
+.boyti{
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 191);
+    color: white;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    box-sizing: border-box;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    right: 50px;
+    transition: all 0.3s linear;
+}
+.afisha:hover{
+    transform: scale(1.1);
+}
+.media:hover{
+    transform: scale(1.1);
+}
+.film:hover{
+    transform: scale(1.1);
+}
+.akt:hover{
+    transform: scale(1.1);
+}
+.novisti:hover{
+    transform: scale(1.1);
+}
+.podrobki:hover{
+    transform: scale(1.1);
+}
+.seracota:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 10px 10px rgb(38, 36, 118);
+}
+.boyti:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 10px 10px rgb(38, 36, 118); 
+}
+.sectionone{
+    width: 100%;
+    height: 1200px;
+}
+.sectiononesoz{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+.seyjas{
+    font-family: Qanelas;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    cursor: pointer;
+}
+.chiziq{
+width: 40px;
+border-top: 1px solid white;
+margin-top: 50px;
+margin-left: 4%;
+}
+.color{
+    color: white;
+    margin-left: 50px;
+}
+.sectiononesoz h1{
+font-family: Qanelas;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 40px;
+color:  rgba(255, 255, 255, 0.35);
+cursor: pointer;
+}
+.sectiononesoz h1:hover{
+    color: white;
+}
+/* a{
+    position: absolute;
+    top: 1850px;
+    right: 300px;
+} */
+.sectiononevideo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    padding-left: 2.5%;
+    margin-top: 55px;
+    flex-wrap: wrap;
+}
+.escape{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/escape.png');
+    background-size: cover;
+    position: relative;
+}
+.joker{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/joker.png');
+    background-size: cover; 
+    position: relative;
+}
+.vozhod{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/vozhod.png');
+    background-size: cover; 
+    position: relative;
+}
+.jentilmen{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/jentilmen.png');
+    background-size: cover;
+    position: relative; 
+}
+.ford{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/ford.png');
+    background-size: cover;   
+    position: relative;
+}
+.omer_opes{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/omer_opes.png');
+    background-size: cover;   
+    position: relative;
+}
+.hishniye{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/hishniye.png');
+    background-size: cover; 
+    position: relative;
+}
+.ploje_parin{
+    width: 340px;
+    height: 460px;
+    border-radius: 10px;
+    background-image: url('./img/ploje_parin.png');
+    background-size: cover; 
+    position: relative;
+}
+ .timerescape{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;
+}
+.pobeg{
+font-family: Qanelas;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-top: 5px;
+cursor: pointer;
+}
+.triller1{
+font-family: Qanelas;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2F60F;
+margin-top: 5px;
+cursor: pointer;
+}
+.djoker{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;  
+}
+.triller2{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.timerjoker{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;
+}
+.kartojkafilm{
+    width: 230px;
+    height: 60px;
+    background-color: white;
+    color: #3657CB;
+    border-radius: 5px;
+    font-family: Qanelas;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    text-align: left;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;   
+    top: 215px;
+    left: 55px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.kartojkafilm:hover{
+    transform: scale(1.1);
+}
+.zvizdeniya{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 5px; 
+    cursor: pointer;
+}
+.fantastika{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F;
+    margin-top: 5px;
+    cursor: pointer;  
+}
+.timervozhod{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;  
+}
+.djentilmen{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 5px; 
+    cursor: pointer;
+}
+.boevik{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F;
+    margin-top: 5px;
+    cursor: pointer;  
+}  
+.timerjentilmen{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer; 
+}
+.ford_protiv{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 5px; 
+    cursor: pointer;   
+}
+.biografiya{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F; 
+    cursor: pointer;    
+    margin-top: 5px;
+}
+.timerford{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;  
+}
+.yil3022{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white; 
+    cursor: pointer;    
+    margin-top: 5px;  
+}
+.fantastikatriler{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F; 
+    cursor: pointer;    
+    margin-top: 5px; 
+}
+.timeromer_opesta{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #CB3F36;
+    color: white;
+    cursor: pointer;  
+}
+.hishnayapts{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white; 
+    cursor: pointer;    
+    margin-top: 5px;     
+}
+.boevikhisniya{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.3px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F; 
+    cursor: pointer;    
+    margin-top: 5px; 
+}
+.timerhishniya{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;  
+}
+.ploxieparine{
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white; 
+    cursor: pointer;    
+    margin-top: 5px;    
+}
+.boevikploje{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.3px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F60F; 
+    cursor: pointer;    
+    margin-top: 5px; 
+}
+.timerploje{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #89CB36;
+    color: white;
+    cursor: pointer;   
+}
+.vsenovinki{
+width: 200px;
+height: 71px;
+border-radius: 10px;
+border:  2px solid white;
+text-align: center;
+color: white;
+padding-top: 25px;
+margin-left: 660px;
+/* margin-top: 320px; */
+cursor: pointer;
+transition: all 0.4s linear;
+}
+.vsenovinki:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 10px 10px rgb(38, 36, 118);
+}
+.sectiontwo{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.sectiontwo{
+    width: 100%;
+    height: 10%;
+    margin-top: 290px;
+    padding-left: 40px;
+}
+.sectiontwosozlar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.novitreyler{
+    font-family: Qanelas;
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    }
+.vsetreyler{
+font-family: Qanelas;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+cursor: pointer;
+margin-left: 660px;
+margin-top: 50px;
+}
+.yonaltirgich{
+    width: 30.5px;
+    height: 17px;
+    background-image: url('./img/Arrow\ 1.png');
+    background-size: cover;
+    margin-top: 57px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.yonaltirgich:hover{
+    transform: translatex(20px);
+}
+.farsaj{
+    width: 1400px;
+    height: 760px;
+    margin-top: 60px;
+    background-image: url('./img/farsaj.png');
+    background-size: cover;
+    position: relative;
+}
+.tugma{
+    width: 60px;
+    height: 68px;
+    background-image: url('./img/Polygon\ 2.png');
+    background-size: cover;
+    position: absolute;
+    top: 340px;
+    left: 705px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.tugma:hover{
+    transform: scale(1.1);
+}
+.farsaj9{
+width: 210px;
+font-family: Qanelas;
+font-size: 45px;
+font-weight: 900;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+/* margin-top: 30px; */
+}
+.farsajsozlar{
+width: 100%;
+height: 100%;
+display: flex;
+gap: 30px;
+padding-top: 30px;
+}
+.social_mediafarsaj{
+    width: 85px;
+    height: 15px;
+    background-image: url('./img/\ \ \ .png');
+    background-size: cover;
+    margin-top: 20px;
+}
+.like{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    margin-left: 920px;
+    position: relative;
+}
+.yoqdiota{
+    width: 50px;
+    height: 50px;
+    background-color: #1B2133;
+    display: flex;
+    padding-top: 12px;
+    border-radius: 7px;
+    justify-content: center;
+    cursor: pointer;
+}
+.yoqdi{
+    width: 18px;
+    height: 23px;
+    background-image: url('./img/yoqdi.png');
+    background-size: cover;
+}
+.yoqdiota:hover{
+    background-color: #3657CB;
+}
+.yoqmadiota{
+    width: 50px;
+    height: 50px;
+    background-color: #1B2133;
+    display: flex;
+    padding-top: 12px;
+    border-radius: 7px;
+    justify-content: center;
+    cursor: pointer; 
+    transition: all 0.2s linear ;
+}
+.yoqmadiota:hover{
+    background-color: #3657CB;
+}
+.soniyoqdi{
+font-family: Qanelas;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+position: absolute;
+top: 60px;
+left: 5px;
+}
+.yoqmadi{
+    width: 18px;
+    height: 23px;
+    background-image: url('./img/yoqmadi.png');
+    background-size: cover;
+}
+.soniyoqmadi{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 60px;  
+    right: 15px;
+}
+.chizota{
+    width: 96.5%;
+    height: 8px;
+    background-color: #1B2133;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.chiz{
+    width: 300px;
+    border: 4px solid #3657CB;
+    border-radius:10px ;
+    margin-left: 80px;
+}
+.tojka{
+    font-size: 18px;
+    color: #6D7692;
+    margin-top: 15px;
+    position: absolute;
+    left: 380px;
+    cursor: pointer;
+}
+.tojka:hover{
+    color: #3657CB;
+}
+.chiztagivideo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    padding-top: 30px;
+}
+.mulan{
+    width: 340px;
+    height: 250px;
+    background-image: url('./img/mulon.png');
+    background-size: cover;
+    border-radius: 13px;
+    position: relative;
+}
+.tugmamulan{
+    width: 27px;
+    height: 30px;
+    background-image: url('./img/Polygon\ 2\ \(1\).png');
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.tugmamulan:hover{
+transform: scale(1.1);
+}
+.mulansoz{
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    margin-top: 5px;
+}
+.chiztagivideoforsaj9{
+    width: 340px;
+    height: 250px;
+    background-image: url('./img/forsajvideotagi.png');
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.forsajsoz9{
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    margin-top: 5px;   
+}
+.jornivideo{
+    width: 340px;
+    height: 250px;
+    background-image: url('./img/jorni_video.png');
+    background-size: cover;
+    border-radius: 13px;
+    position: relative;
+}
+.jornivideosoz{
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    margin-top: 5px;  
+}
+.tixo_mesto2{
+    width: 340px;
+    height: 250px;
+    background-image: url('./img/tiximesto.png');
+    background-size: cover;
+    border-radius: 13px;
+    position: relative; 
+}
+.tixomesto2soz{
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    margin-top: 5px;   
+}
+.sectionthree{
+    width: 100%;
+    height: 100%;
+    margin-top: 260px;
+}
+.sectionthreetepasozlar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+.popularni_film{
+font-family: Qanelas;
+font-size: 65px;
+font-weight: 900;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+cursor: pointer;
+}
+.vsevrema{
+    margin-left: 110px;
+}
+.y{
+font-family: Qanelas;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 0.35);
+cursor: pointer;
+margin-top: 40px;
+}
+.y:hover{
+    color: white;
+}
+.chiziq2{
+width: 40px;
+border-top: 1px solid white;
+margin-top: 50px;
+margin-left: 140px;
+}
+.sectionthreevideo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+.sec3djoker{
+    width: 335px;
+    height: 520px;
+    background-image: url('./img/sec3djoker.png');
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+.istorya_igrushka{
+    width: 335px;
+    height: 520px;
+    background-image: url('./img/istoryaigrush.png');
+    background-size: cover;
+    cursor: pointer; 
+    transition: all 0.3s linear;  
+}
+.odnajdi{
+    width: 335px;
+    height: 520px;
+    background-image: url('./img/odnajdi.png');
+    background-size: cover;
+    cursor: pointer; 
+    transition: all 0.3s linear;   
+}
+.solnitsa{
+    width: 335px;
+    height: 520px;
+    background-image: url('./img/solnitsa.png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;  
+}
+.sectionthreevideo div:hover{
+    transform: scale(1.1);
+}
+.yonaltirgichsec3{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    margin-left: 660px;
+    margin-top: 600px;
+}
+.chap{
+    width: 26px;
+    height: 25px;
+    background-image: url('./img/Arrow\ 3.png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.paragrif{
+font-family: Qanelas;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.on{
+    width: 27px;
+    height: 25px;
+    background-image: url('./img/Arrow\ 2.png');
+    background-size: cover; 
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.chap:hover{
+ transform: translatex(-20px);
+}
+.on:hover{
+    transform: translatex(20px); 
+}
+.pop{
+font-family: Qanelas;
+font-size: 65px;
+font-weight: 900;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+cursor: pointer;
+}
+.popvideo{
+    width: 100%;
+    height: 100%;
+}
+.tepasozlapop{
+    width: 100%;
+    height: 100;
+    display: flex;
+    margin-top: 60px;
+}
+.god{
+    width: 270px;
+    height: 20px;
+    display: flex; 
+    gap: 10px;
+    margin-left: 470px;
+    margin-top: 30px;
+}
+.god h1{
+font-family: Qanelas;
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 0.35);
+cursor: pointer;
+transition: all 0.3s linear;
+}
+.god h1:hover{
+    color: white;
+}
+.videopop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    padding-top: 80px;
+}
+.kevin_tarantini{
+    width: 435px;
+    height: 444px;
+    background-image: url('./img/Квентин\ Тарантино.png');
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.kevin_tarantini:hover{
+    transform: scale(1.1);
+}
+.jeysin_s{
+    width: 435px;
+    height: 444px;
+    background-image: url('./img/Джейсон\ Стейтем.png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.jeysin_s:hover{
+    transform: scale(1.1);
+}
+.sipisok{
+    width: 490px;
+    height: 444px;
+    background-color: #1B2133;
+    padding-top:40px ;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.sipisok1{
+    width: 434px;
+    height: 89.83px;
+    background-image: url(./img/Тинто\ Брасс.png);
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sipisok2{
+    width: 432px;
+    height: 89.83px;
+    background-image: url(./img/Тинто\ Брасс.png);
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sipisok3{
+    width: 432px;
+    height: 89.83px;
+    background-image: url(./img/Том\ Харди.png);
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sipisok4{
+    width: 432px;
+    height: 89.83px;
+    background-image: url(./img/Джеки\ Чан.png);
+    background-size: cover;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.sipisok div:hover{
+    transform: scale(1.1);
+}
+.pos_novs{
+    width: 100%;
+    height: 100%;
+    margin-top: 600px;
+}
+.posnovstepsozla{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.posledni_novisti{
+font-family: Qanelas;
+font-size: 65px;
+font-weight: 900;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.vsno{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+.vsnovisti{
+font-family: Qanelas;
+font-size: 22px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+cursor: pointer;
+}
+.yonaltirgichvsno{
+    width: 30.5px;
+    height: 17px;
+    background-image: url('./img/Arrow\ 1.png');
+    background-size: cover;
+    margin-top: 7px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.yonaltirgichvsno:hover{
+    transform: translatex(20px);
+}
+.posnovsvideo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+.foto3{
+    width: 1159px;
+    height: 790px;
+    background-image: url('./img/Фото\ \(3\).png');
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.3s linear;
+}
+.onbeshaprel{
+font-family: Qanelas;
+font-size: 15px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+cursor: pointer;
+position: absolute;
+top: 30px;
+left: 30px;
+}
+.prasmotr{
+    width: 54px;
+    height: 29px;
+    background-image: url('./img/Просмотры.png');
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    cursor: pointer;
+}
+.comentariy{
+width: 37px;
+height: 29px;
+background-image: url('./img/Комменты.png');
+background-size: cover;
+position: absolute;
+top: 28px;
+left: 200px;
+cursor: pointer;
+}
+.nivremiya{
+font-family: Qanelas;
+font-size: 45px;
+font-weight: 900;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+position: absolute;
+bottom: 150px;
+left: 30px;
+cursor: pointer;
+}
+.no_dest{
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;    
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+.kopvideo{
+    width: 300px;
+    height: 200px;
+}
+.bir1{
+width: 254.8px;
+height: 182.65px;
+background-image: url('./img/1\ \(1\).png');
+background-size: cover;
+cursor: pointer;
+transition: all 0.3s linear;
+}
+.foto_3{
+    width: 254.8px;
+    height: 182.65px;
+    background-image: url('./img/2\ \(1\).png');
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.uchi1{
+    width: 254.8px;
+    height: 182.65px;
+    background-image: url('./img/3\ \(1\).png');
+    margin-top: 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: all 0.3s linear; 
+}
+.tort1{
+    width: 254.8px;
+    height: 182.65px;
+    background-image: url('./img/4\ \(1\).png');
+    margin-top: 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: all 0.3s linear;   
+}
+.tort1:hover{
+    transform: scale(1.1);
+}
+.bir1:hover{
+    transform: scale(1.1);
+}
+.foto_3:hover{
+    transform: scale(1.1);
+}
+.uchi1:hover{
+    transform: scale(1.1);
+}
+.foter{
+    width: 100%;
+    height: 100%;
+    background-color: #151A26;
+}
+footer{
+    width: 97%;
+    height: 100%;
+    margin-top: 4650px;
+    padding-left: 30px;
+    position: relative;
+}
+.footertepasozlar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.ojidani{
+font-family: Qanelas;
+font-size: 60px;
+font-weight: 900;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.footeryonaltirgich{
+    width: 130px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+footer .chap{
+    margin-top: 7px;
+}
+footer .on{
+    margin-top: 7px;
+}
+footer .paragrif{
+    margin-top: 7px;
+}
+.footervideo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+}
+.bir{
+    width: 340.49px;
+    height: 526px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url('./img/1\ \(2\).png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.ikki{
+    width: 340.49px;
+    height: 526px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url('./img/2\ \(2\).png');
+    background-size: cover;
+    cursor: pointer; 
+    transition: all 0.3s linear; 
+}
+.uch{
+    width: 340.49px;
+    height: 526px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url('./img/3\ \(2\).png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.tort{
+    width: 340.49px;
+    height: 526px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url('./img/4\ \(2\).png');
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.footervideo div:hover{
+    transform: scale(1.1);
+}
+.kassovi{
+font-family: Qanelas;
+font-size: 65px;
+font-weight: 900;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-top: 60px;
+}
+.footerortadagisozlar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.date{
+font-family: Qanelas;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin-top: 95px;
+margin-left: 20px;
+}
+.footerortadagisozlar .chiziq2{
+    margin-top: 105px;
+    margin-right: 40px;
+}
+.davlatlar{
+    width: 340px;
+    height: 25px;
+    display: flex;
+    gap: 20px;
+    margin-top: 95px;
+    margin-left: 120px;
+}
+.davlatlar h1{
+font-family: Qanelas;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #6D717D;
+cursor: pointer;
+transition: all 0.4s linear;
+}
+.davlatlar h1:hover{
+    color: white;
+}
+.footerpastkivideolar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+.paskibir{
+    width: 256px;
+    height: 141.2px;
+    background-image: url(./img/1\ \(3\).png);
+    background-size: cover;
+}
+.paskiikki{
+    width: 256px;
+    height: 141.2px;
+    background-image: url(./img/2\ \(3\).png);
+    background-size: cover;
+}
+.paskiuch{
+    width: 256px;
+    height: 141.2px;
+    background-image: url(./img/3\ \(3\).png);
+    background-size: cover;  
+}
+.paskitort{
+    width: 256px;
+    height: 141.2px;
+    background-image: url(./img/4\ \(3\).png);
+    background-size: cover;   
+}
+.paskibesh{
+    width: 256px;
+    height: 141.2px;
+    background-image: url(./img/5.png);
+    background-size: cover; 
+}
+.emailqismi{
+    width: 100%;
+    height: 650px;
+    padding-left: 7px;
+    margin-top: 60px;
+}
+.fon{
+    width: 1428px;
+    height: 548px;
+    background-image: url(./img/Фон.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.email{
+    width: 798px;
+    height: 366px;
+    position: relative;
+}
+.fon .logatip{
+    margin-left: 330px;
+    
+}
+.podpishi{
+font-family: Qanelas;
+font-size: 50px;
+font-weight: 900;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-top: 30px;
+}
+.emailsoz{
+    font-family: Qanelas;
+font-size: 22px;
+font-weight: 500;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.otp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+#email{
+    width: 425px;
+    height: 71px;
+    border: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-left: 20px;
+}
+.podpisat{
+    width: 182px;
+    height: 71px;
+    border-radius: 10px;
+    background-color: #F2F60F;
+    margin-top: 20px;
+    /* position: relative; */
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    color: #151A26;
+    transition: all 0.3s linear;
+}
+.podpisat:hover{
+transform: scale(1.1);
+}
+.checkbox{
+    width: 450px ;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    
+}
+.cog{
+    font-family: Qanelas;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+#checkbox{
+    left: 150px;
+    bottom: 0px;
+}
+#sariq{
+    color: #F2F60F;
+    border-bottom: 1px solid #F2F60F ;
+}
+.footerpaskisozlar{
+    width: 100%;
+    height: 100%;
+}
+.hamasi{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+}
+.logatipfooter{
+    width: 256px;
+    height: 20px;
+    background-image: url('./img/\ \ \ \ .png');
+    background-size: cover;
+}
+.fopaso{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.footerpaskisozlar .fopaso h1{
+font-family: Qanelas;
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+transition: all 0.2s linear;
+}
+.footerpaskisozlar .fopaso h1:hover{
+transform: scale(1.1);
+}
+#y2020{
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #e3e6f08a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.pol{
+font-family: Qanelas;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+color: #e3e6f08a;
+border-bottom: 1px solid #e3e6f08a;
+margin-left: 625px;
+}
+.tepa{
+    position: fixed;
+    z-index: 20;
+    top: 500px;
+    right: 10px;
+    transition: all 10s linear;
+}
+
+
+/* media */
+
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 366px;
+        height: 100%;
+        background-color: red;
+    }
+    .conteiner{
+        width: 424px;
+        height: 100%;
+        /* background-color: black; */
+    }
+    .header{
+    width: 424px;
+    height: 250px;
+    background-size: cover;
+    background-position: -60px;
+    }
+    .nav{
+        width: 424px;
+        padding-left:10px;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .logatip{
+        width: 90px;
+        height: 24px;
+        background-size: cover;
+        position: absolute;
+        left: 130px;
+    }
+    .boyti{
+        width: 66px;
+        height: 27px;
+        font-size: 11px;
+        padding-top: 4px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    .social_media{
+        width: 85px;
+        height: 15px;
+        top: 0px;
+        left: 130px;
+    }
+    .menuota{
+        width: 28px;
+        height: 27px;
+        background-color: white; 
+        border-radius: 5px; 
+        display: flex;
+        padding-top: 8px;
+        justify-content: center;  
+        position: absolute;
+        left:25px
+    }
+    .menu{
+       width: 14px; 
+       height: 11px;
+       background-image: url('./img/Vector\ \(5\).png');
+    }
+    .seracota{
+        width: 28px;
+        height: 27px;
+        padding-top: 8px;
+        border-radius: 5px;
+        position: absolute;
+        left:60px;
+    }
+    .seraech{
+        width: 11px;
+        height: 11px;
+    }
+    .nav li{
+        display: none;
+    }
+    .sectiononesoz{
+        width: 366px;
+        height: 50px;
+        position: relative;
+    }
+    .sectiononesoz h1{
+        display: none;
+    }
+    .seyjas{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .menu1{
+        width: 14px;
+        height: 11px;
+        background-image: url('./img/Vector\ \(6\).png');
+        position: absolute;
+        top: 59px;
+        right: 80px;
+    }
+  .sectiononevideo{
+    width: 424px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  .escape{
+    width: 170px;
+    height: 252px;
+  }
+  .timerescape{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .triller1{
+    font-size: 12px;
+  }
+  .joker{
+    width: 170px;
+    height: 252px;
+  }
+  .timerjoker{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px; 
+  }
+  .triller2{
+    font-size: 12px;
+  }
+  .kartojkafilm{
+    width: 140px;
+    height: 43px;
+    font-size: 14px;
+    padding-top: 8px;
+    top: 100px;
+    left: 20px;
+  }
+  .vozhod{
+    width: 170px;
+    height: 252px;
+  }
+  .timervozhod{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;  
+  }
+  .fantastika{
+    font-size: 12px;
+  }
+  .jentilmen{
+    width: 170px;
+    height: 252px;
+  }
+  .timerjentilmen{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .boevik{
+    font-size: 12px;
+  }
+  .ford{
+    width: 170px;
+    height: 252px;
+    margin-top: 30px;
+  }
+  .timerford{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px; 
+  }
+  .biografiya{
+    font-size: 12px;
+  }
+  .omer_opes{
+    width: 170px;
+    height: 252px;
+    margin-top: 30px;
+  }
+  .timeromer_opesta{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .yil3022{
+    margin-top: 10px;
+  }
+  .fantastikatriler{
+    font-size: 12px;
+  }
+  .hishniye{
+    width: 170px;
+    height: 252px;
+  }
+  .timerhishniya{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .ploje_parin{
+    width: 170px;
+    height: 252px;
+  }
+  .timerploje{
+    width: 38px;
+    height: 21px;
+    padding-top: 4px;
+    font-size: 12px;
+    top: 10px;
+    right: 10px;
+  }
+  .vsenovinki{
+    width: 160px;
+    height: 53px;
+    padding-top: 15px;
+    position: absolute;
+    top: 1530px;
+    left: -560px;
+  }
+  .novitreyler{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .sectiontwosozlar{
+    width: 366px;
+    height: 50px;
+ 
+  }
+  .farsaj{
+    width: 350px;
+    height: 198px;
+    border-radius: 5px;
+    margin-left: -30px;
+  }
+  .vsetreyler{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: -210px;
+  }
+  .yonaltirgich{
+    width: 18.5px;
+    height: 10px;
+    margin-top: 70px;
+    margin-left: -20px;
+  }
+  .tugma{
+    width: 22px;
+    height: 25px;
+    left: 180px;
+    top: 80px;
+  }
+  .farsaj9{
+    margin-top: -40px;
+    margin-left: -30px;
+    font-size: 25px;
+  }
+ .farsajsozlar .social_media{
+
+    position: absolute;
+    top: 1885px;
+    left: 15px;
+  }
+  .chizota{
+    display: none;
+  }
+.tojka{
+    left: 105px;
+    top: 1902px;
+}
+.like{
+    margin-left: 35px;
+    margin-top: -20px;
+    gap: 10px;
+}
+.yoqdiota{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+.yoqdi{
+width: 14px;
+height: 14px;
+}
+.yoqmadiota{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.yoqmadi{
+    width: 15px;
+    height: 15px;   
+}
+.mulan{
+    width: 170px;
+    height: 127px;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+.tugmamulan{
+    width: 19.5px;
+    height: 21px;
+    top: 50px;
+    left: 78px;
+}
+.mulansoz{
+    font-size: 13px;
+    margin-left: -20px;
+}
+.chiztagivideoforsaj9{
+    width: 170px;
+    height: 127px;
+    margin-top: 20px;
+    /* margin-left: -25px;  */
+}
+.soniyoqdi{
+    font-size: 9px;
+    top: 30px;
+}
+.soniyoqmadi{
+    font-size: 9px;
+    top: 30px;
+    left: 48px;  
+}
+.jornivideoota{
+    display: none;
+}
+.tixomestoota{
+    display: none;
+}
+.sectionthree{
+    /* margin-bottom: 40px; */
+    position: relative;
+}
+.popularni_film{
+    font-size: 30px;
+    position: absolute;
+    top: -80px;
+    left: -10px;
+    /* line-height: 0; */
+}
+.sectionthreetepasozlar .menu1{
+margin-top: -100px;
+}
+.sectionthreetepasozlar h1{
+    display: none;
+}
+.sec3djoker{
+    width: 170px;
+    height: 260px;
+    border-radius: 5px;
+    margin-top: -90px;
+    margin-left: -20px;
+
+}
+.sectionthreevideo{
+    gap: 15px;
+}
+.istorya_igrushka{
+    width: 170px;
+    height: 260px;
+    margin-top: -90px;
+    border-radius: 5px;
+}
+.odnajdi{
+    display: none;
+}
+.solnitsa{
+    display: none;
+}
+.yonaltirgichsec3{
+    width: 117px;
+    height: 21px;
+    gap: 10px;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+.chap{
+    width: 25px;
+    height: 20px;
+}
+.paragrif{
+    font-size: 17px;
+}
+.on{
+    width: 25px;
+    height: 20px;
+}
+.pop{
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: -10px;
+}
+.tepasozlapop{
+    position: relative;
+}
+.tepasozlapop .menu1{
+    position: absolute;
+    top: 0px;
+}
+.tepasozlapop h1{
+    display: none;
+}
+.videopop{
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.kevin_tarantini{
+    width: 170px;
+    height: 179px;
+    margin-top: -80px;
+    margin-left: -30px;
+    border-radius: 5px;
+}
+.jeysin_s{
+    width: 170px;
+    height: 179px;
+    margin-top: -80px;
+    border-radius: 5px;
+}
+.sipisok{
+    width: 356px;
+    height: 266px;
+    margin-left: -30px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.sipisok1{
+    width: 330px;
+    height: 54px;
+}
+.sipisok2{
+    width: 330px;
+    height: 54px;
+}
+.sipisok3{
+    width: 330px;
+    height: 54px;
+}
+.sipisok4{
+    width: 330px;
+    height: 54px;
+}
+.posledni_novisti{
+    margin-top: -100px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.vsno{
+    margin-top: -40px;
+    margin-left: -200px;
+}
+.posnovsvideo{
+    flex-wrap: wrap;
+}
+.foto3{
+    width: 356px;
+    height: 245px;
+    margin-left: -30px;
+    border-radius: 10px;
+
+}
+.onbeshaprel{
+    font-size: 12px;
+    top: 10px;
+    left: 20px;
+}
+.prasmotr{
+    width: 46px;
+    height: 21px;
+    top: 10px;
+    left: 100px;
+}
+.comentariy{
+    width: 31px;
+    height: 22px;
+    top: 10px;
+    left: 160px;
+}
+.nivremiya{
+    font-family: Qanelas;
+font-weight: 900;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+position: absolute;
+bottom: 30px;
+left: 20px;
+cursor: pointer;
+    font-size: 20px;
+}
+.no_dest{
+    display: none;
+}
+.kopvideo{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.bir1{
+    width: 175px;
+    height: 128px;
+    margin-top: -10px;
+    margin-left: -30px;
+    border-radius:10px ;
+}
+.foto_3{
+    width: 175px;
+    height: 128px; 
+    margin-top: 0;
+    position: absolute;
+    top: -10px;
+    right: -28px;
+    
+}
+.uchi1{
+    display: none;
+}
+.tort1{
+    display: none;
+}
+.foter{
+    margin-top: -1250px;
+}
+.ojidani{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.footeryonaltirgich{
+    display: none;
+}
+.footervideo{
+    width: 366px;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+.bir{
+    width: 170px;
+    height: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ikki{
+    width: 170px;
+    height: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.uch{
+    display: none;
+}
+.tort{
+    display: none;
+}
+.footerortadagisozlar{
+    display: block;
+}
+.footerortadagisozlar h1{
+    display: none;
+}
+.kassovi{
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: -40px;
+}
+.date{
+    margin-top: -20px;
+    margin-left: 60px;
+}
+.footerpastkivideolar{
+    flex-wrap: wrap;
+}
+.paskibir{
+    width: 160px;
+    height: 109px;
+    margin-left: -20px;
+}
+.paskiikki{
+    width: 160px;
+    height: 109px;
+    
+}
+.paskiuch{
+    width: 160px;
+    height: 109px;
+    margin-left: -20px;
+}
+.paskitort{
+    width: 160px;
+    height: 109px;
+}
+.paskibesh{
+    display: none;
+}
+.fon{
+  width: 360px;  
+  height: 460px;
+  margin-left: -25px;
+  border-radius: 10px;
+}
+.fon .logatip{
+   width: 136px; 
+   height: 31px;
+   margin-left: -10px;
+   margin-top: -60px;
+}
+.podpishi{
+font-size: 22px;
+margin-top: -10px;
+line-height: 30px;
+}
+.emailsoz{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 350px;
+}
+.otp{
+    display: inline-block;
+}
+#email{
+    width: 284px;
+    height: 62px;
+    margin-left: 40px;
+    padding-left: 60px;
+}
+.podpisat{
+    width: 284px;
+    height: 62px;
+    margin-left: 40px;
+    position: none;
+}
+.checkbox{
+    display: none;
+}
+.logatipfooter{
+    margin-left: -75px;
+    margin-top: -170px;
+}
+.fopaso{
+    display: inline-block;
+    margin-top: -140px;
+    margin-left: -40px;
+}
+.fopaso h1{
+    margin-top: 10px;
+}
+#y2020{
+    margin-right: 80px;
+}
+.pol{
+   margin-left: 45px; 
+}
+}
